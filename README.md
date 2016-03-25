@@ -7,3 +7,4 @@ Location of my data structures and algorithms questions and answers
 4. Truncate a String
 5. Cut Off Head of Array
 6. Array Mutations
+7. Stack - Last In First Out
