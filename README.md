@@ -8,3 +8,7 @@ Location of my data structures and algorithms questions and answers
 5. Cut Off Head of Array
 6. Array Mutations
 7. Stack - Last In First Out
+8. Falsy Filter
+9. Sum of All in Array
+10. Diff of Two Arrays
+11. Search and Replace
