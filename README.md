@@ -12,3 +12,4 @@ Location of my data structures and algorithms questions and answers
 9. Sum of All in Array
 10. Diff of Two Arrays
 11. Search and Replace
+12. Pig Latin
