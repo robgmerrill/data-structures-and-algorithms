@@ -13,3 +13,4 @@ Location of my data structures and algorithms questions and answers
 10. Diff of Two Arrays
 11. Search and Replace
 12. Pig Latin
+13. DNA Pairing
