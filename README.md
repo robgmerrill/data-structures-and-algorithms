@@ -14,3 +14,5 @@ Location of my data structures and algorithms questions and answers
 11. Search and Replace
 12. Pig Latin
 13. DNA Pairing
+14. Palindrom Check
+
