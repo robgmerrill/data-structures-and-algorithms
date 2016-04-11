@@ -18,3 +18,4 @@ Location of my data structures and algorithms questions and answers
 15. Factorialize
 16. Title Case a Sentence
 17. Return Largest Numbers in Arrays
+18. Confirm the Ending
