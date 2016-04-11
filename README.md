@@ -16,3 +16,4 @@ Location of my data structures and algorithms questions and answers
 13. DNA Pairing
 14. Palindrom Check
 15. Factorialize
+16. Title Case a Sentence
