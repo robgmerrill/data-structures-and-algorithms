@@ -16,3 +16,25 @@ console.log(longestWord('The yellow hippo')); // 6
 console.log(longestWord('The first touchdown')); // 9
 console.log(longestWord('The art of winning')); // 7
 console.log(longestWord('Dumb and Dumber')); // 6
+
+
+// Solution 2
+
+function findLongestWord(str) {
+  // Turns single string into an array of strings
+  var arr = str.split(' ');
+  // Set length of longest string to 0
+  var longestString = '';
+  // For loop to iterate through array of strings
+  for (var i =0; i < arr.length; i++) {
+    // compare longest string to next iteration in array. if longer, replace
+    if(longestString.length < arr[i].length) {
+      longestString = arr[i];
+    }
+  }
+    // str is now replaced with the longest length
+    str = longestString;
+    return str.length;
+  }
+
+console.log(findLongestWord('The quick brown fox jumped over the lazy moon'));

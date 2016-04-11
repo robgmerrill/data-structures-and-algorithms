@@ -15,3 +15,32 @@ function isPalindrome(str) {
 console.log(isPalindrome('level'));
 console.log(isPalindrome('levels'));
 console.log(isPalindrome('A car, a man, a maraca'));
+
+
+// Solving without RegExp
+// Solving without RegExp
+
+function palindrome(str) {
+  // Changed string to lowercase so no case sensitive issues
+  str = str.toLowerCase();
+  // Loop to replace special characters without using regexp
+  for (var i = 0; i < str.length; i++) {
+    str = str.replace(' ', '');
+    str = str.replace(',', '');
+    str = str.replace('.', '');
+    str = str.replace('/', '');
+    str = str.replace('-', '');
+    str = str.replace('_', '');
+    str = str.replace('(', '');
+    str = str.replace(')', '');
+  }
+  // Create a copy of our string and reverse it
+  var copy = str.split('').reverse().join('');
+  if (copy == str) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(palindrome("0_0 (: / :) 0-0"));
