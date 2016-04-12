@@ -18,9 +18,12 @@ function echo(str, num) {
   var holderArray = [];
   // create a for loop  and iterate through array
   for (var i = 0; i < num; i++) {
+    // push str into the array
     holderArray.push(str);
   }
+  // turn array into a string
   str = holderArray.join('');
+  // return the string
   return str;
 }
 

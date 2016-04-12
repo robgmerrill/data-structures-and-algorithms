@@ -15,3 +15,21 @@ function truncateString(str, num) {
 console.log(truncateString('Hello World', 2));
 console.log(truncateString('Touchdown', 4));
 console.log(truncateString('The sly fox jumped over the moon', 14));
+
+// Alternative Solution
+
+function truncate(str, num) {
+    if (num > 3) {
+    if (str.length > num) {
+      str = str.slice(0, num-3);
+      str = str.concat("...");
+    } 
+    return str;
+  } else {
+      str = str.slice(0, num);
+      str = str.concat("...");
+    }
+    return str;
+  }
+
+  console.log(truncate('To the moon', 7));
