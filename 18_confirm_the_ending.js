@@ -16,6 +16,7 @@ console.log(end('Merrill', 'il'));
 // Alternative Solution
 
 function ending(str, target) {
+  // 
   return str.substr(-target.length) === target;
 }
 
