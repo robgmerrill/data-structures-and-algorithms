@@ -18,7 +18,7 @@ function titleCase(str) {
 console.log(titleCase("I'm a little teapot"));
 
 
-// Alternative Solution
+// Alternative Solution - doesn't fully work
 
 function title(str) {
   var array = str.toLowerCase().split(' ');
