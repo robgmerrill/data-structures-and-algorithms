@@ -21,3 +21,5 @@ Location of my data structures and algorithms questions and answers
 18. Confirm the Ending
 19. Where Art Though
 20. Missing Letters
+21. Palindrom Permutation
+22. Array Unique Union
