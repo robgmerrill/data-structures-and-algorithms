@@ -29,3 +29,11 @@ console.log(cb); // "cardboard"
 
 box.size; // undefined (undefined is a type)
 console.log(box.size); 
+
+/* Rules
+String - yes
+numbers - no
+quotations - no
+weird characters - no
+expressions - no
+*/
