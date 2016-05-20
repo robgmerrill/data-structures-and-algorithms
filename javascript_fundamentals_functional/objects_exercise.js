@@ -14,10 +14,12 @@ animal.noises;
 
 console.log(animal);
 
+var count = 0; 
 for (var key in animal) {
-  if (animal.username) {
-    console.log('Hi my name is ' + username);
-  } else {
-    console.log('I like to say ' + tagline);
+  count++; 
+  if (key == 'username') {
+    console.log('Hi my name is ' + animal[key]);
+  } else if (key == 'tagline') {
+    console.log('I like to say ' + animal[key]);
   }
 }
